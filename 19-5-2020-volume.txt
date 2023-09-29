@@ -1,0 +1,303 @@
+    1  clear
+    2  apt-get update
+    3  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    5  sudo apt-key fingerprint 0EBFCD88
+    6  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    7     $(lsb_release -cs) \
+    8     stable"
+    9  sudo apt-get update
+   10  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   11  docker --help
+   12  docker config --help
+   13  docker config inspect --help
+   14  docker config inspect 
+   15  clear
+   16  ls
+   17  clear
+   18  docker image pull node
+   19  clear
+   20  ls
+   21  git
+   22  clear
+   23  ls
+   24  clear
+   25  cd ~
+   26  pwd
+   27  cat /etc/passwd
+   28  clear
+   29  ls
+   30  clear
+   31  ls
+   32  vi Dockerfile
+   33  git clone https://github.com/coolgourav147/hello-world-angular.git
+   34  ls
+   35  cp Dockerfile hello-world-angular/
+   36  clear
+   37  cd hello-world-angular/
+   38  ls
+   39  vi Dockerfile 
+   40  clear
+   41  vi Dockerfile 
+   42  ls
+   43  docker image build -t angular .
+   44  docker image ls
+   45  docker container run -itdP angular 
+   46  docker container ls
+   47  docker image ls
+   48  docker container ls
+   49  docker container rm 16bc53b791a9
+   50  docker container rm 16bc53b791a9 -f
+   51  clear
+   52  ls
+   53  docker image ls
+   54  docker image rm angular
+   55  clear
+   56  ls
+   57  cd src/
+   58  ls
+   59  cd app/
+   60  ls
+   61  vi app.component.html 
+   62  ccd ../..
+   63  ls
+   64  cd clear
+   65  clear
+   66  ls
+   67  cd ../..
+   68  ls
+   69  docker image build -t angular .
+   70  clear
+   71  docker image ls
+   72  docker container run -itdP angular 
+   73  docker ps
+   74  cd 
+   75  ls
+   76  clear
+   77  ls
+   78  cat Dockerfile 
+   79  cd hello-world-angular/
+   80  l;s
+   81  ls
+   82  git status
+   83  git add .
+   84  git commit -m "dockerfile added"
+   85  git push origin master
+   86  clear
+   87  ls
+   88  cd 
+   89  ls
+   90  rm -rvf *
+   91  clear
+   92  docker container run -itd ubuntu 
+   93  clear
+   94  ls
+   95  git clone https://github.com/coolgourav147/hello-world-angular.git
+   96  clear
+   97  ls
+   98  cd hello-world-angular/
+   99  ls
+  100  clear
+  101  ls
+  102  docker image ls
+  103  docker image rm cb4113d4fe25 e00884c768d7 e00884c768d7 1d622ef86b13
+  104  docker ps -a
+  105  docker container rm 8a6959fa62f0 10f4dcb7824b
+  106  docker container rm 8a6959fa62f0 10f4dcb7824b -f
+  107  clear
+  108  l
+  109  docker image rm cb4113d4fe25 e00884c768d7 e00884c768d7 1d622ef86b13
+  110  clear
+  111  docker image ls
+  112  docker image rm node:lagtest
+  113  docker image rm node:latest
+  114  clear
+  115  docker image ls
+  116  docker image ls -a
+  117  docker image build -t angular .
+  118  clear
+  119  ls
+  120  vi Dockerfile 
+  121  docker image ls 
+  122  docker image ls -a
+  123  clear
+  124  ls
+  125  docker image --help
+  126  docker image ls
+  127  docker image history angular
+  128  cat Dockerfile 
+  129  clear
+  130  ls
+  131  docker container ls
+  132  docker container ls -a
+  133  vi Dockerfile 
+  134  docker image build -t angular1 .
+  135  cat Dockerfile 
+  136  docker image ls
+  137* docker image ls -
+  138  docker image history angular
+  139  clear
+  140  ls
+  141  clear
+  142  ls
+  143  git stash
+  144  cleara
+  145  vi Dockerfile 
+  146  clear
+  147  ls
+  148  src/
+  149  cd src/
+  150  ls
+  151  cd app/
+  152  ls
+  153  vi app.component.html 
+  154  clear
+  155  docker image ls
+  156  docker image rm angular1
+  157  docker image build -t angular1 .
+  158  cd ..
+  159  docker image build -t angular1 .
+  160  clear
+  161  docker image ls
+  162  clear
+  163  ls
+  164  vi Dockerfile 
+  165  LS
+  166  ls
+  167  clear
+  168  ls
+  169  docker ps
+  170  docker ps -a
+  171  docker image ls
+  172  docker image rm b23ec3812880 93d924482405
+  173  clear
+  174  ls
+  175  vi Dockerfile 
+  176  docker image build -t angular1 .
+  177  clear
+  178  ls
+  179  clear
+  180  docker image ls
+  181  docker image prune 
+  182  docker image ls
+  183  docker image prune  --help
+  184  cleear
+  185  clear
+  186  ls
+  187  docker image build -t angular1 .
+  188  ls
+  189  vi Dockerfile 
+  190  clear
+  191  ls
+  192  clear
+  193  docker container run -itd ubuntu 
+  194  clear
+  195  ls
+  196  docker container ls
+  197  docker contanier exec -it 68c2416f8209 bash
+  198  docker container exec -it 68c2416f8209 bash
+  199  ls
+  200  cd
+  201  clear
+  202  ls
+  203  docker ps
+  204  docker container rm 68c2416f8209
+  205  docker container rm 68c2416f8209 -f
+  206  docker container run -itd ubuntu 
+  207  docker container exec -it b5 bash
+  208  #bi
+  209  #Bind mount
+  210  # volume
+  211  docker image --help
+  212  docker --help
+  213  clear
+  214  docker volume ls
+  215  docker volume --help
+  216  docker volume create --help
+  217  clear
+  218  docker volume create test
+  219  docker volume ls
+  220  docker volume inspect test
+  221  docker volume ls
+  222  docker volume --help
+  223  docker volume rm test
+  224  docker volume create test
+  225  docker volume create test1
+  226  clear
+  227  docker volume ls
+  228  docker volume prune
+  229  clear
+  230  docker volume create test
+  231  docker volume ls
+  232  docker container run --help 
+  233  clear
+  234  docker container run -itd -v test:/data ubuntu
+  235  docker container exec -it 99 bash
+  236  docker contanier ls
+  237  docker container ls
+  238  docker container rm -f 997b9f637ef7
+  239  docker container ls
+  240  docker volume ls
+  241  docker container run -itd ubuntu
+  242  docker container exec -it e0 bash
+  243  clear
+  244  docker volume ls
+  245  docker container run -it -v test:/app ubuntu 
+  246  docker ps
+  247  docker container run -it -v test:/gaurav ubuntu 
+  248  docker container ls
+  249  docker container rm e0868ddc96ed b50c5a4c2fa2
+  250  docker container rm -f e0868ddc96ed b50c5a4c2fa2
+  251  docker container ls -a
+  252  docker container rm eed27beb6b4a 661dbe00e4e6
+  253  clear
+  254  docker volume ls
+  255  docker volume inspect test
+  256  cd /var/lib/docker/volumes/test/_data
+  257  ls
+  258  cd 
+  259  clear
+  260  history 
+  261  clear
+  262  docker volume ls
+  263  docker container run -it -v gaurav:/gaurav ubuntu 
+  264  docker volume ls
+  265  docker container ls
+  266  docker container rm cc970c8fd786
+  267  docker container rm cc970c8fd786 -f
+  268  docker volume inspect test
+  269  clear
+  270  docker volume ls
+  271  docker --help
+  272  clear
+  273  ls
+  274  pwd
+  275  docker container run -it -v /root/hello-world-angular:/code ubuntu
+  276  ls
+  277  cd hello-world-angular/
+  278  ls
+  279  git status
+  280  git stash
+  281  clear
+  282  apt-get update
+  283  apt-get install tmux
+  284  clear
+  285  tmux
+  286  docker image inspect mysql
+  287  docker image ls
+  288  docker image inspect angular1
+  289  clear
+  290  ls
+  291  docker image inspect mysql
+  292  docker volume ls
+  293  docker container run -itd -v 3d15c25e75380018c2bd9c6462da78cf62fca83da5147c4a74398482258e1aa6:/var/lib/mysql mysql
+  294  docker container ls
+  295  docker container exec -it 7b072cdda17f bash
+  296  ls
+  297  git stash
+  298  ls
+  299  git status
+  300  git stash
+  301  clear
+  302  ls
+  303  history > 19-5-2020-volume.txt
